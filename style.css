@@ -1,0 +1,380 @@
+@charset "UTF-8";
+
+/* ------------------------------------------------
+	* 全体構造
+-------------------------------------------------- */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #4a4a4a;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+p,
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #4a4a4a;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.inner {
+    padding: 70px 50px;
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.line {
+    background-color: #4a4a4a;
+    width: 55px;
+    height: 1px;
+    margin: 30px auto 60px;
+}
+
+/*-------------------------------
+*ヘッダー
+------------------------------ */
+
+header {
+    height: 13vh;
+    background-color: #363bcf;
+    color: #ffffff;
+}
+
+header :hover {
+    color: white;
+}
+
+header .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+header ul {
+    display: flex;
+}
+
+.change {
+    color: #ffffff;
+}
+
+header li {
+    padding: 0 20px;
+}
+
+/* モーダルウィンドウのスタイル */
+
+/* ハンバーガーアイコンのスタイル */
+#hamburgerIcon {
+    cursor: pointer;
+    font-size: 40px;
+    height: 65px;
+}
+
+/* .hamburgerIcon { */
+/* width: 50px; */
+/* height: 50px; */
+
+/* } */
+
+/* モーダルウィンドウのスタイル */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* メインビジュアル */
+
+/* ------------------------------------------------
+	* メインビジュアル
+-------------------------------------------------- */
+
+.mainvisual {
+    height: 80vh;
+    background-image: url(./img/IMG_0701.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.mainvisual::before {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: " ";
+}
+
+.mainvisual h2 {
+    font-family: "serif";
+    text-align: center;
+    color: #fff;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainvisual::before {
+    background-color: rgba(0, 0, 0, 0, 6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: " ";
+}
+
+/* ABOUT */
+
+.about {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.about p {
+    line-height: 2.5;
+    color: #fff;
+}
+
+/*  NEWS */
+.news .inner {
+    text-align: left;
+    color: black;
+}
+
+.news ul {
+    margin-bottom: 80px;
+}
+
+.news li {
+    border-bottom: 1px dotted rgb(0, 0, 0);
+    padding: 5px 0;
+}
+
+.news li span {
+    margin-right: 30px;
+}
+
+.news-btn {
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: #4a4a4a;
+    background-color: #e2e4e4;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 10px 0;
+    border: 1px solid #4a4a4a;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+.news-btn:hover {
+    opacity: 0.7;
+}
+
+/* ＊WORKS */
+
+.swiper {
+    /* スライダーの幅と高さを調整 */
+    width: 100%;
+    height: 80vh;
+
+    /* 背景が前面に表示されるようにする
+   position: relative;
+   z-index: 1; */
+}
+
+.swiper-wrapper {
+    /* スライド要素の幅と高さを調整 */
+    width: 100%;
+
+    /*テキストの位置調整*/
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    /*テキストの色と太さを指定*/
+    /* color: #fff;
+    font-weight: bold; */
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.slide1 {
+    background-color: #88acbd;
+    width: 30px; /* 写真の幅を調整 */
+    height: 30px; /* 写真の高さを調整 */
+}
+
+.slide2 {
+    background-color: #99cb1f;
+    width: 30px; /* 写真の幅を調整 */
+    height: 30px; /* 写真の高さを調整 */
+}
+
+.slide3 {
+    background-color: #e43a47;
+    width: 30px; /* 写真の幅を調整 */
+    height: 30px; /* 写真の高さを調整 */
+}
+
+.access {
+    background-color: #ffffff;
+    color: black;
+}
+
+/* account  */
+
+/* account
+   .icon-card-wrapper {
+     display: flex;
+     /* justify-content: space-between; */
+/* } 
+  
+  /* .icon-card-wrapper:last-child {
+     margin-top: 30px;
+  } */
+
+/* .icon-card {
+     width: 30%;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.7);
+  } */
+
+.icon-card img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.icon-card-wrapper {
+    /*display: flex;
+   justify-content: space-between;
+   width: 100px;*/
+    height: 200px;
+}
+.account {
+    background-color: skyblue;
+}
+
+.icon-card {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.icon-card img {
+    border-radius: 40px; /* 50%の値で写真の角を完全な円形にします。適宜値を調整できます。 */
+    width: 150px; /* 写真の幅を適切な値に調整してください。 */
+    height: 150px; /* 写真の高さを適切な値に調整してください。 */
+    object-fit: cover; /* 写真を正しく表示するために、コンテナに合わせてカットまたは拡大縮小します。 */
+}
+
+/* .member { */
+
+/* } */
+
+/* ＊フッター */
+
+footer {
+    background-color: #0008ff;
+    text-align: center;
+}
+
+footer p {
+    color: #ffffff;
+    padding: 20px 0;
+}
