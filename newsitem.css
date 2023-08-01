@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/*全体構造*/
+
+html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  color: #4a4a4a;
+  line-height: 1.5;
+  background-color: #fff;
+}
+h1,h2,h3,h4{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 28px;
+  text-align: center;
+}
+h3{
+  font-size: 18px;
+  text-align: center;
+}
+p,a{
+  margin:0;
+  padding:0;
+  font-size: 18px;
+  color: #4a4a4a;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.7;
+}
+u1{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+.inner{
+  padding: 70px 50px;
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+.line{
+  background-color: #4a4a4a;
+  width: 55px;
+  height: 1px;
+  margin: 30px auto 60px;
+}
+
+/*ヘッダー*/
+
+header{
+  height:           13vh;
+  background-color: #0008ff;
+  color:            #ffffff;
+}
+header:hover{
+  color: white;
+}
+header .inner{
+  display:          flex;
+  justify-content:  space-between;
+  align-items:      center;
+  padding:          0 20px;
+  height:           100%;
+  max-width:        980px;
+  margin:           0 auto;
+}
+header ul{
+  display: flex;
+}
+.change{
+  color: #ffffff;
+}
+header li{
+  padding: 0 20px;
+}
+
+/* モーダルウィンドウのスタイル */
+
+/* ハンバーガーアイコンのスタイル */
+#hamburgerIcon {
+  cursor:     pointer;
+  font-size:  40px;
+  height:     85px;
+
+}
+
+/* .hamburgerIcon { */
+  /* width: 50px; */
+  /* height: 50px; */
+
+/* } */
+
+/* モーダルウィンドウのスタイル */
+.modal {
+  display:          none;
+  position:         fixed;
+  z-index:          1;
+  left:             0;
+  top:              0;
+  width:            100%;
+  height:           100%;
+  overflow:         auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin:           15% auto;
+  padding:          20px;
+  border:           1px solid #888;
+  width:            60%;
+}
+
+.close {
+  color:       #aaa;
+  float:         right;
+  font-size:     28px;
+  font-weight:   bold;
+  cursor:        pointer;
+}
+
+.close:hover,
+.close:focus {
+  color:         #000;
+  text-decoration: none;
+  cursor:          pointer;
+}
+
+/*お知らせリスト外枠*/
+
+.outer-box{
+    background-color: #e0ffff;
+    max-width:          2000px;
+    height:             auto;
+    margin-left:        auto;
+    margin-right:       auto;
+    padding:            20px 20px;
+  }
+  
+.inner-box{
+    max-width:          1900px;
+    height:             950px;
+    background-color: #fff;
+    padding:            0;
+    margin:             auto;
+    border-radius:      20px;
+    position:           relative;
+}
+
+.news-title{
+    padding: 10px;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+}
+
+ .item .date{
+    margin:     0;
+    min-width:  140px;
+    font-size:  16px;
+    color:    #999;
+    padding:    0 20px 0 0;
+  }
+  .item .category span{
+    background:   #1e00ff;
+    color:        #ffffff;
+    text-align:     center;
+    display:        inline-block;
+    width:          70px;
+    height:         10px;
+    padding:        5px 20px;
+    font-size:      12px;
+    line-height:    1;
+    border-radius:  10px;
+  }
+
+
+/*フッター*/
+footer{
+    background-color: #0008ff;
+    text-align:         center;
+  }
+  
+  footer p{
+    color:    #ffffff;
+    padding:    20px 0;
+  }
+  
