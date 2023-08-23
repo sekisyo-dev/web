@@ -12,7 +12,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    color: #4a4a4a;
+    color: #000000;
     line-height: 1.5;
     background-color: #fff;
 }
@@ -45,7 +45,7 @@ a {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    color: #4a4a4a;
+    color: #000000;
 }
 
 a {
@@ -85,7 +85,7 @@ li {
 
 header {
     height: 13vh;
-    background-color: #363bcf;
+    background-color: #362cffdb;
     color: #ffffff;
 }
 
@@ -174,7 +174,7 @@ header li {
 
 .mainvisual {
     height: 80vh;
-    background-image: url(./img/IMG_0701.jpg);
+    background-image: url(/img/haikeipic.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -216,7 +216,7 @@ header li {
 /* ABOUT */
 
 .about {
-    background-color: #007bff;
+    background-color: #362cffdb;
     color: #ffffff;
 }
 
@@ -347,7 +347,7 @@ header li {
     height: 200px;
 }
 .account {
-    background-color: skyblue;
+    background-color: #362cffdb;
 }
 
 .icon-card {
@@ -357,7 +357,7 @@ header li {
 }
 
 .icon-card img {
-    border-radius: 40px; /* 50%の値で写真の角を完全な円形にします。適宜値を調整できます。 */
+    border-radius: 15px; /* 50%の値で写真の角を完全な円形にします。適宜値を調整できます。 */
     width: 150px; /* 写真の幅を適切な値に調整してください。 */
     height: 150px; /* 写真の高さを適切な値に調整してください。 */
     object-fit: cover; /* 写真を正しく表示するために、コンテナに合わせてカットまたは拡大縮小します。 */
@@ -370,7 +370,7 @@ header li {
 /* ＊フッター */
 
 footer {
-    background-color: #0008ff;
+    background-color: #362cffdb;
     text-align: center;
 }
 
