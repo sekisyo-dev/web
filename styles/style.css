@@ -12,7 +12,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    color: #4a4a4a;
+    color: #000000;
     line-height: 1.5;
     background-color: #fff;
 }
@@ -45,7 +45,7 @@ a {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    color: #4a4a4a;
+    color: #000000;
 }
 
 a {
@@ -85,7 +85,7 @@ li {
 
 header {
     height: 13vh;
-    background-color: #363bcf;
+    background-color: #362cffdb;
     color: #ffffff;
 }
 
@@ -216,7 +216,7 @@ header li {
 /* ABOUT */
 
 .about {
-    background-color: #007bff;
+    background-color: #362cffdb;
     color: #ffffff;
 }
 
@@ -347,7 +347,7 @@ header li {
     height: 200px;
 }
 .account {
-    background-color: skyblue;
+    background-color: #362cffdb;
 }
 
 .icon-card {
@@ -370,7 +370,7 @@ header li {
 /* ＊フッター */
 
 footer {
-    background-color: #0008ff;
+    background-color: #362cffdb;
     text-align: center;
 }
 
