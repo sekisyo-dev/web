@@ -8,7 +8,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #4a4a4a;
+  color: #000000;
   line-height: 1.5;
   background-color: #fff;
 }
@@ -36,7 +36,7 @@ a {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  color: #4a4a4a;
+  color: #000000;
 }
 a {
   text-decoration: none;
@@ -99,7 +99,7 @@ header li {
 #hamburgerIcon {
   cursor: pointer;
   font-size: 40px;
-  height: 85px;
+  height: 65px;
 }
 
 /* .hamburgerIcon { */
@@ -179,7 +179,7 @@ header li {
 /*お知らせリスト外枠*/
 
 .outer-box {
-  background-color: #e0ffff;
+  background-color: #e9e9fbdb;
   max-width: 2000px;
   height: auto;
   margin-left: auto;
@@ -188,13 +188,20 @@ header li {
 }
 
 .inner-box {
-  max-width: 1900px;
-  height: 950px;
+  width: 1000px;
+  height: 940px;
   background-color: #fff;
   padding: 0;
   margin: auto;
   border-radius: 20px;
   position: relative;
+}
+
+@media screen and (max-width: 1400px) {
+  .inner-box {
+    width: auto;
+    max-width: 1000px;
+  }
 }
 
 /*お知らせ一覧*/
@@ -233,7 +240,7 @@ header li {
   padding: 0 20px 0 0;
 }
 .news-list .item .category span {
-  background: #1e00ff;
+  background: #362cffdb;
   color: #ffffff;
   text-align: center;
   display: inline-block;
@@ -249,7 +256,7 @@ header li {
   padding: 0 16px;
 }
 .news-list .item a:hover .title {
-  color: rgb(0, 0, 255);
+  color: #362cffdb;
 }
 @media screen and (max-width: 730px) {
   .news-list .item a {
@@ -288,12 +295,12 @@ a {
 }
 
 .newslist-pager a:hover {
-  color: rgb(0, 0, 255);
+  color: #362cffdb;
 }
 
 /*フッター*/
 footer {
-  background-color: #0008ff;
+  background-color: #362cffdb;
   text-align: center;
 }
 
