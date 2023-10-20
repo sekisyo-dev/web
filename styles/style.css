@@ -346,10 +346,6 @@ iframe {
     margin: auto;
 }
 
-.icon-card {
-    /*vertical-align: top;*/
-}
-
 @media (max-width: 740px) {
     .icon-card {
         width: 80px;
