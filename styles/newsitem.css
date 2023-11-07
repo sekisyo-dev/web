@@ -210,6 +210,12 @@ header li {
   }
 }
 
+.picture img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
 /*フッター*/
 footer {
   background-color: #362cffdb;
