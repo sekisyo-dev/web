@@ -201,6 +201,8 @@ header li {
   .inner-box {
     width: auto;
     max-width: 1000px;
+    height: auto;
+    padding-bottom: 55px;
   }
 }
 
