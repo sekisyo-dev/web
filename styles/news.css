@@ -189,7 +189,7 @@ header li {
 
 .inner-box {
   width: 1000px;
-  height: 940px;
+  height: 1040px;
   background-color: #fff;
   padding: 0;
   margin: auto;
@@ -202,7 +202,7 @@ header li {
     width: auto;
     max-width: 1000px;
     height: auto;
-    padding-bottom: 55px;
+    padding-bottom: 80px;
   }
 }
 
