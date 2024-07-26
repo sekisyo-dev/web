@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Profile site</title>
+
+    <link rel="stylesheet" href="styles/_reset.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"
+    ></script>
+    <script defer src="scripts/main.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <a class="top-link" href="/"
+        ><img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACRUlEQVR4nO2YP2gUQRSHvygSMSqoxQU7NRibEEEFib1gowjBRixEgmCKFEFsAqntFEHEzoBNks5GkBBRbEyjqVSMVQRNSBP8l1z0woNZeAy3e7N3M7e3Mh88ltt5M/P73c3svD2IRCKRFE4B94AHwAlKxk1gC6iZ+A0MUxLuKOE6/gG36WB2Ao8t0QvAB+veXaDL9DkKzAObVo58fgkca5f4bmDGEvEC2AccBF5bbZK724isZYSYC86BOgKngF2WwWkrZw7YaGBA2oNyGFi0Jr0P7EhZYg8zxGrS7ntFBH1WE/0Fxhz6TZgNXbiBvWrz/QGu5Oh7HahaQofabQAj+ilwrom+F8yvlgj9BVwKbeA8MArs8TTeZWBdiZXD71YoA5Nq7UqJ4IsjwEfHzd0U8gictQb1aUA4BLwJYaAH+GYN+NxsYN/0AM+suWSP7Pf5rTyxDqgQj+ZHdcqRiq91mdQw7S4IvwD9rp3PAN9DbagWzoo166yoyyDwQ3X6WaAB4aKlQbSdJINxlbwKnC3YAEbDqtIgGjOLs1cmjpt7RRg4bYpCuWK0JLpEYy6KMPDVzCfXlslroNe8adWL3kBzehlssEFJkMSnRhuRggwsOIhP4m0nGthSeUspkbRXO9FAzSHP51jORAOK+As0Q1xCZVlCS+oRWkoDfaZS7CurARcKMVBVg8k/FK3gIqw7x4ntxHs14EpGmeAS2kBazorKeefDwLUcRZrvuIonRoDlNgpfBm4QgErGy4prDDRor4QQHon8r2wDUvvXvTzuc9MAAAAASUVORK5CYII="
+      /></a>
+      <nav>
+        <a class="nav-link" href="#profile">私たちについて</a>
+        <a class="nav-link" href="#product">取り扱い商品</a>
+        <a class="nav-link" href="#news">ニュース</a>
+        <a class="nav-link" href="#place">販売店</a>
+      </nav>
+    </header>
+
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/OIP (1).jpg" />
+        </div>
+        <h1 class="top-title">NEWS</h1>
+      </div>
+    </div>
 
